@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>IW4M_Event</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RaidMax.IW4MAdmin.SharedLibraryCore" Version="2020.12.20.1" />
+  </ItemGroup>
+
+</Project>
