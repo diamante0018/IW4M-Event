@@ -50,19 +50,10 @@ namespace IW4M_Event
             }
         }
 
-        public Task OnLoadAsync(IManager manager)
-        {
-            return Task.CompletedTask;
-        }
+        public Task OnLoadAsync(IManager manager) => Task.CompletedTask;
 
-        public Task OnTickAsync(Server S)
-        {
-            return Task.CompletedTask;
-        }
+        public Task OnTickAsync(Server S) => Task.CompletedTask;
 
-        public Task OnUnloadAsync()
-        {
-            return Task.CompletedTask;
-        }
+        public Task OnUnloadAsync() => Task.CompletedTask;
     }
 }
